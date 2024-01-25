@@ -40,7 +40,7 @@ public class ElectronicStoreApplication implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 //		System.out.println(passwordEncoder.encode("abcd"));
 		try {
-
+			System.out.println("lets make is ueejd");
 			Role roleAdmin = Role.builder().roleId(role_admin_id).roleName("ROLE_ADMIN").build();
 			Role rolenormal = Role.builder().roleId(role_normal_id).roleName("ROLE_NORMAL").build();
 			roleRepository.save(rolenormal);
